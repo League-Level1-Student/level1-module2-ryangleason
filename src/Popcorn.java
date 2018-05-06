@@ -9,6 +9,7 @@
  *         Add a main method to the Popcorn class to cook a bag of Popcorn. Don't change the existing methods.
  */
 
+
 class Microwave {
 	private int cookTime;
 	Popcorn thingToBeCooked;
@@ -37,7 +38,10 @@ class Microwave {
 }
 
 public class Popcorn {
-
+	public static void main(String[]args) { 
+		Popcorn = new Popcorn;
+	}
+	
 	private int kernels = 20;
 	private String flavor;
 
@@ -57,7 +61,7 @@ public class Popcorn {
 			kernels--;
 		}
 	}
-
+	
 	private void pause() {
 		try {
 			Thread.sleep(150);
@@ -67,6 +71,7 @@ public class Popcorn {
 	}
 	
 }
+
 
 
 
