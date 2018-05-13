@@ -39,7 +39,11 @@ class Microwave {
 
 public class Popcorn {
 	public static void main(String[]args) { 
-		Popcorn = new Popcorn;
+		Microwave a = new Microwave();
+		Popcorn pop = new Popcorn("Salty Buttery ");
+		a.putInMicrowave(pop);
+		a.setTime(4);
+		a.startMicrowave();
 	}
 	
 	private int kernels = 20;
